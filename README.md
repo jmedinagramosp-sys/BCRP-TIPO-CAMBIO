@@ -26,6 +26,8 @@ El dashboard incluye:
 
 ![KPIs y medidor](docs/kpis-medidor.png)
 
+![Volatilidad diaria](docs/volatilidad.png)
+
 ## Fuente de datos
 
 [API pública de BCRPData](https://estadisticas.bcrp.gob.pe/estadisticas/series/ayuda/api) — gratuita, sin necesidad de API key ni registro.
@@ -89,7 +91,6 @@ funcionó correctamente, y el log queda registrado en `log.txt` para
 depurar si algo falla.
 
 **Linux/Mac (cron)** — equivalente corriendo a las 9pm todos los días:
-
 0 21 * * * cd /ruta/al/proyecto && /usr/bin/python3 python/extract_load.py --dias 10 && /usr/bin/python3 python/forecast.py --dias-adelante 7 >> log.txt 2>&1
 
 
