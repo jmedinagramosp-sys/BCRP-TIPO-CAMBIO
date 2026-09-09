@@ -1,0 +1,5 @@
+MAE del ajuste sobre el historico: 0.0554 soles
+(referencia de que tan bien la linea de tendencia sigue los datos reales)
+
+Archivo generado: C:\Users\Jose\Documents\Proyectos\bcrp-tipo-cambio-pipeline-d\data\proyeccion.csv
+Conecta este CSV en Power BI (Obtener datos > Texto/CSV) para el visual de tendencia.
