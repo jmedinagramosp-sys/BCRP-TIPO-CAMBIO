@@ -48,7 +48,7 @@ forecast.py → regresión lineal simple + exporta CSV
 Power BI Desktop → dashboard (histórico + tendencia + KPIs)
 
 ## Estructura del repositorio
-
+```
 ├── python/
 │ ├── extract_load.py # Extrae de la API BCRP y carga a SQLite (con reintentos)
 │ └── forecast.py # Genera proyección de tendencia (CSV para Power BI)
@@ -59,7 +59,7 @@ Power BI Desktop → dashboard (histórico + tendencia + KPIs)
 ├── Tipo-cambio-dash.pbix # Dashboard de Power BI
 ├── requirements.txt
 └── README.md
-
+```
 
 ## Cómo ejecutar
 
